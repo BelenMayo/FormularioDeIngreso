@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulario de Ingreso</title>
+        <link rel="stylesheet" href="css/normalize.css">
+    </head>
+    <body>
+
+      <form action="index.html" method="post">
+      
+        <h1 style= "color:#FF0080">REGÍSTRESE</h1>
+        
+        <fieldset>
+          <legend style= "color:#81BEF7">INFORMACIÓN PERSONAL</legend>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre">
+          
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido"><br>
+
+          <br><label>Sexo:</label><br>
+          <input type = "radio" value="sexoM" name="masculino">Masculino</label><br> 
+          <input type = "radio" value="sexoF" name="femenino">Femenino</label><br><br>
+
+          Fecha de nacimiento:
+          <input type="date" name="fecha"><br><br>
+
+          Teléfono:
+          <input type = "tel" name ="telefono">
+
+          Celular:
+          <input type = "tel" name ="celular"><br><br>
+
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="mail"><br><br>
+          
+          <label for="password">Contraseña:</label>
+          <input type="password" id="password" name="password">
+
+          <label for="password2">Ingrese nuevamente su Contraseña:</label>
+          <input type="password" id="password2" name="password2"><br><br>
+
+        </fieldset>
+
+        <br><button type="submit">Registrarse</button>
+      </form>
+      
+    </body>
+</html>
